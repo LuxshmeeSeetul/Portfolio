@@ -1,0 +1,136 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    background: linear-gradient(to bottom, #e0f7fa, #e1bee7); /* Gradient background */
+    line-height: 1.6;
+    padding-top: 80px; /* to prevent content from hiding behind fixed navbar */
+}
+
+/* Header / Navigation Styles */
+header {
+    position: fixed; /* Fix navbar to the top */
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    background: linear-gradient(to right, #b9a0e9, #f19ab8);
+    box-shadow: 0 2px 40px #f499b9; /* Add shadow for depth */
+    z-index: 1000; /* Ensure navbar is above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: rgba(0, 0, 0, 0.811);
+    font-size: 35px;
+    margin-left: 30px; /* Margin for header title */
+}
+
+/* Hamburger Menu - General Styles */
+.hamburger {
+    display: none; /* Hide on larger screens */
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+}
+
+nav ul {
+    display: flex; /* Flexbox layout for navigation */
+    justify-content: flex-end; /* Align items to the right */
+    list-style: none;
+    margin-right: 20px; /* Space from the edge */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #7d3cf7;
+    color: white;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 14px; /* Ensure this is below the navbar */
+}
+
+#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+#home button a {
+    text-decoration: none;
+    background-color:  #fd71a2; /* Coral background */
+    color: #000000;
+    padding: 15px 30px; /* Increase button size */
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+#home button {
+    margin-top: 20px;
+    padding: 0; /* Reset padding */
+    border: none;
+}
+
+#home button a:hover {
+    background-color: #f43d7d;
+}
+
+/* Intro Section */
+#intro {
+    display: inline flex;
+    align-items: center; /* Center the items vertically */
+    margin-top: 20px;
+    margin-left: 310px;
+    margin-bottom: 100px;
+    max-width: 650px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right, #b9a0e9, #f19ab8);
+    color: #000000;
+    position: fixed; /* Fix footer to the bottom */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   
+
+ 
+}

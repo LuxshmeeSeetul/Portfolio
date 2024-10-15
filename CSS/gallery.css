@@ -1,0 +1,81 @@
+/* General body styling */
+body {
+    background: linear-gradient(to bottom, #e0f7fa, #e1bee7); /* Gradient background */
+    line-height: 1.6;
+    padding-top: 80px; /* to prevent content from hiding behind fixed navbar */
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.gallery {
+    max-width: 1000px; /* Adjust the maximum width of the gallery */
+    margin: 0 auto; /* Center the gallery */
+}
+
+h2 {
+    text-align: center; /* Center the section titles */
+    font-size: 40px; /* Adjust the font size of section titles */
+    margin-top: 100px;
+}
+
+.ps, .gallery-container {
+    display: grid; /* Use grid layout for the gallery */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid columns */
+    gap: 20px; /* Space between grid items */
+    margin-bottom: 30px; /* Add margin below each gallery section */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #7d3cf7;
+    width: 800px;
+    margin-left: 100px;
+    background: linear-gradient(to bottom, #e0f7fa, #e1bee7); /* Gradient background */
+
+}
+
+img, video {
+    width: 100%; /* Ensure images and videos take the full width of their grid cell */
+    border-radius: 8px; /* Add rounded corners to images and videos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow effect */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+img:hover, video:hover {
+    transform: scale(1.05); /* Slightly enlarge the image or video on hover */
+}
+
+.ps{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.ps img{
+    margin-left: 90px;
+}
+
+#ai{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+#photo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+#video{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+#animate{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}

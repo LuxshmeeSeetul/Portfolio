@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+    background: linear-gradient(to bottom, #e0f7fa, #e1bee7); /* Gradient background */
+    line-height: 1.6;
+    padding-top: 80px; /* to prevent content from hiding behind fixed navbar */
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#para{
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: 334px;
+    margin-bottom: 29px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to bottom, #e0f7fa, #e1bee7);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #7d3cf7;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+iframe{
+    margin-left: 100px;
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 75%;
+    padding: 10px;
+    border: 2px solid #f19ab8;
+    border-radius: 4px;
+    margin-left: 75px;
+}
+
+input[type="submit"] {
+    background-color: #7d3cf7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    width: 200px;
+    font-size: 19px;
+    margin-left: 200px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a1ff4;
+}
+
+.contact-info{
+    margin: 50px;
+    text-align: center;
+}
+
+.contact-info p{
+    font-size: 20px;
+}
+
+.contact-info h2{
+    font-size: 30px;
+}
+
+#para1{
+    text-align: center;
+    font-size: 19px;
+}
